@@ -1,0 +1,20 @@
+<% include head %>
+
+<script type="text/javascript">
+if (!Parse.User.current()) {
+    window.location.href='/';
+} else {
+  //user logged in to Parse
+
+}
+
+function logout() {
+    Parse.User.logOut();
+    window.location.href='/';
+}
+
+</script>
+
+<input type="button" value="Log Out" onclick="logout();" />
+
+<% include foot %>

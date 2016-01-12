@@ -1,0 +1,30 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+  <!-- Mingle Now Tab -->
+  <ion-tab title="Mingle Now" icon-off="ion-fork-repo" icon-on="ion-fork-repo" href="#/tab/dash">
+    <ion-nav-view name="tab-dash"></ion-nav-view>
+  </ion-tab>
+
+    <!-- Pre-mingle Tab -->
+    <ion-tab title="Pre-mingle" icon-off="ion-ios-calendar-outline" icon-on="ion-ios-calendar" href="#/tab/account">
+        <ion-nav-view name="tab-account"></ion-nav-view>
+    </ion-tab>
+
+
+  <!-- Handshakes Tab -->
+  <ion-tab title="Handshakes" icon-off="ion-ios-people-outline" icon-on="ion-ios-people" href="#/tab/chats">
+    <ion-nav-view name="tab-chats"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Profile Tab -->
+  <ion-tab title="Profile" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/detail">
+    <ion-nav-view name="chat-detail"></ion-nav-view>
+  </ion-tab>
+
+
+</ion-tabs>

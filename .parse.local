@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "Netty": {
+      "applicationId": "2Ua3KOGgXi2ozhU1eb5J2RXBFVAxt7kd8UINu83o"
+    },
+    "_default": {
+      "link": "Netty"
+    }
+  }
+}
